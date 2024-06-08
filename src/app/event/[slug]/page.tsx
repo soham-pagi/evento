@@ -1,8 +1,8 @@
 import H1 from "@/components/h1";
-import { capitalize, getEvent } from "@/lib/utils";
+import { getEvent } from "@/lib/utils";
 import { type Metadata } from "next";
 import Image from "next/image";
-import { ReactNode } from "react";
+import { type ReactNode } from "react";
 
 type Props = {
   params: {
