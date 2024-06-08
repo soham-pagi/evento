@@ -13,7 +13,6 @@ export default function PaginationControls({
   previousPath,
   nextPath,
 }: PaginationControlsProps) {
-  console.log(nextPath);
   return (
     <section className="flex justify-between w-full">
       {previousPath ? (
