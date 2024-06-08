@@ -1,7 +1,7 @@
 import EventList from "@/components/events-list";
 import H1 from "@/components/h1";
 import { Suspense } from "react";
-import Loading from "../loading";
+import Loading from "../loading1";
 import { capitalize } from "@/lib/utils";
 import { type Metadata } from "next";
 import { z } from "zod";
